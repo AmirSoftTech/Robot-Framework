@@ -22,6 +22,7 @@ ScrollingTest
     sleep    3s
     execute javascript    window.scrollTo(0,-document.body.scrollHeight)
 
+
     sleep    3s
     close browser
 

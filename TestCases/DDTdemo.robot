@@ -1,0 +1,11 @@
+*** Settings ***
+Library    SeleniumLibrary
+
+*** Variables ***
+${url}  https://www.saucedemo.com/
+${browser}  chrome
+${txt_usename}  id:user-name
+${txt_password}    id:password
+${btn_login}    id:login-button
+${txt_error}    xpath://*[@id="login_button_container"]/div/form/div[3]/h3
+
