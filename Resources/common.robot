@@ -1,7 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../TestCases/DDTdemo.robot
-
+Library    SeleniumLibrary
+Resource    ../TestCases/DDTdemo.robot
 *** Keywords ***
 Start TestCase
     open browser    ${url}  ${browser}

@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation    THIS IS INVALOID LOGIN VERIFICATION
 Library    SeleniumLibrary
 Resource    ../Resources/common.robot
 #Resource    DDTdemo.robot

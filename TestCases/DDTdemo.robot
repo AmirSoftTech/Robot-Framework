@@ -4,6 +4,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${url}  https://www.saucedemo.com/
 ${browser}  chrome
+#${browser}  firefox
 ${txt_usename}  id:user-name
 ${txt_password}    id:password
 ${btn_login}    id:login-button

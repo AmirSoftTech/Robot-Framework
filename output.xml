@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.10.0 on win32)" generated="20211119 01:10:43.538" rpa="false" schemaversion="2">
+<suite id="s1" name="TC1" source="C:\Users\amirulcse\PycharmProjects\Robotpractice\TestCases\TC1.robot">
+<test id="s1-t1" name="MytestCase">
+<kw name="launchBrowser" library="TC2">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${appurl}</arg>
+<arg>${appbrowser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211119 01:10:45.821" level="INFO">Opening browser 'chrome' to base url 'http://demo.guru99.com/test/newtours/'.</msg>
+<status status="PASS" starttime="20211119 01:10:45.821" endtime="20211119 01:10:55.368"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211119 01:10:55.369" endtime="20211119 01:10:55.522"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:userName</arg>
+<arg>mercury</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211119 01:10:55.523" level="INFO">Typing text 'mercury' into text field 'name:userName'.</msg>
+<status status="PASS" starttime="20211119 01:10:55.522" endtime="20211119 01:10:55.751"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>mercury</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211119 01:10:55.752" level="INFO">Typing text 'mercury' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20211119 01:10:55.751" endtime="20211119 01:10:55.898"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211119 01:10:58.918" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20211119 01:10:55.899" endtime="20211119 01:10:58.918"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211119 01:10:58.918" endtime="20211119 01:11:01.296"/>
+</kw>
+<status status="PASS" starttime="20211119 01:10:45.820" endtime="20211119 01:11:01.296"/>
+</kw>
+<status status="PASS" starttime="20211119 01:10:45.819" endtime="20211119 01:11:01.298"/>
+</test>
+<doc>This is the web automation test</doc>
+<status status="PASS" starttime="20211119 01:10:43.542" endtime="20211119 01:11:01.306"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
